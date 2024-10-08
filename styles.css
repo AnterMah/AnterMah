@@ -1,0 +1,209 @@
+body {
+    background: radial-gradient(orange, black);
+    color: whitesmoke;
+    margin: 0px;
+
+}
+
+header {
+    font-size: 40px;
+    color: orangered;
+    border-bottom: solid 5px rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    font-family: "New Amsterdam", sans-serif;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+
+}
+
+iframe {
+    background: rgb(37, 37, 37);
+    border: solid rgb(37, 37, 37) 10px;
+
+}
+
+.title {
+    font-size: 28px;
+    justify-content: left;
+    display: flex;
+    padding-left: 28%;
+    color: rgb(223, 223, 223);
+    font-family: "Baskervville SC", serif;
+
+}
+
+.textoInicial {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    padding-left: 28%;
+    padding-right: 27%;
+    font-family: "Baskervville SC", serif;
+
+}
+
+.hashtag {
+    font-size: 16px;
+    justify-content: left;
+    display: flex;
+    padding-left: 28%;
+    font-family: "Teko", sans-serif;
+
+}
+
+.confira {
+    font-size: 21px;
+    color: rgb(223, 223, 223);
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    padding-right: 6.55%;
+    font-family: "Teko", sans-serif;
+    border-bottom: solid 2.5px rgb(37, 37, 37);
+    width: 36%;
+    margin: 0 auto;
+
+}
+
+.textoExplica {
+    justify-content: center;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+    font-size: 17px;
+    color: whitesmoke;
+    background: rgb(37, 37, 37);
+    border: solid 3px rgb(193 125 0);
+    font-family: "Baskervville SC", serif;
+
+}
+
+.VerMais {
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
+    color: rgb(223, 223, 223);
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-family: "Baskervville SC", serif;
+
+}
+
+img {
+    height: 200px;
+
+}
+
+.ConteudoVerMais {
+    display: flex;
+    overflow-x: auto;
+    gap: 15PX;
+    background: rgb(37, 37, 37);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.ConteudoVerMais img {
+    opacity: 0.70;
+
+}
+
+.ConteudoVerMais img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    transition: 0.45s ease, opacity 0.3s ease;
+    transform-origin: center;
+
+}
+
+
+.TrollFace {
+    position: relative;
+
+}
+
+.Troll {
+    position: absolute;
+    top: -1743px;
+    left: 0px;
+
+}
+
+.CreditosHeight {
+    font-size: 25px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(223, 223, 223);
+    font-family: "Baskervville SC", serif;
+
+}
+
+.CreditosHeight2 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: rgb(223, 223, 223);
+    font-family: "Baskervville SC", serif;
+
+}
+
+footer {
+    background: radial-gradient(rgba(245, 245, 245, 0.288), #1818182d);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+
+}
+
+footer p {
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    margin-top: -2px;
+
+}
+
+/*
+https://fonts.google.com/?preview.text=Lan%C3%A7amento%20do%20Hallow%20Knight:%20Silk%20Song
+https://symbl.cc/pt/
+
+
+<!-- Link para a página https://example.com 
+<a href="https://example.com" 
+   title="Ir para Example.com"    <!-- Texto exibido como dica ao passar o cursor sobre o link -->
+   target="_blank"                <!-- Abre o link em uma nova aba ou janela -->
+   style="text-decoration: none;"> <!-- Remove o sublinhado padrão do link -->
+   
+    <!-- Imagem exibida dentro do link -->
+    <img src="imagem.jpg"          <!-- Caminho para a imagem -->
+         alt="Descrição da imagem" <!-- Texto alternativo exibido se a imagem não carregar ou para leitores de tela -->
+         width="300"                <!-- Largura da imagem -->
+         height="200"               <!-- Altura da imagem -->
+         style="border: 1px solid #ccc;"> <!-- Adiciona uma borda ao redor da imagem -->
+
+         .ConteudoVerMais img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
+}
+
+.ConteudoVerMais img:hover {
+    opacity: 1;
+    transform: scale(1.2); /* Ajuste o fator de escala conforme necessário x
+}
+Explicação:
+
+transition: transform 0.3s ease, opacity 0.3s ease; faz com que as alterações de transformação e opacidade sejam suaves.
+transform-origin: center; garante que a escala ocorra a partir do centro do elemento.
+transform: scale(1.2); aumenta o tamanho do vídeo em 20% quando o mouse passa sobre ele. Você pode ajustar o valor para obter o efeito desejado.
+Dessa forma, o vídeo irá aumentar proporcionalmente para cima e para baixo, mantendo-se centralizado na posição original.
+*/
